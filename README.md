@@ -1,6 +1,6 @@
 # SeqACE_PointHead
 
-This repository contains the implementation of the training code of the pointhead in paper ["Enhancing scene coordinate regression with efficient keypoint detection and sequential information"](https://github.com/sair-lab/SeqACE) by Kuan Xu, Zeyu Jiang, Haozhi Cao, Shenghai Yuan, Chen Wang, and Lihua Xie, published in IEEE Robotics and Automation Letters, 2025.
+This repository contains the implementation of the pointhead training code in paper ["Enhancing scene coordinate regression with efficient keypoint detection and sequential information"](https://github.com/sair-lab/SeqACE) by Kuan Xu, Zeyu Jiang, Haozhi Cao, Shenghai Yuan, Chen Wang, and Lihua Xie, published in IEEE Robotics and Automation Letters, 2025.
 
 ## Environment Setup
 The repository contains an `environment.yml` for the use with Conda:
