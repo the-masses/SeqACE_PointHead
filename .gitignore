@@ -1,0 +1,10 @@
+datasets/
+runs/
+results_keypoint/
+results_pose/
+__pycache__/
+.vscode/
+*.pt
+*.txt
+*.npy
+*.jpg
