@@ -68,13 +68,13 @@ Finally, we need to calculate mean coordinate of datasets by using `calculate_me
 If only RGB images and ground truth poses are available (minimal setup), initialize a network by calling:
 
 ```bash
-python train_init.py {output_network.pt} --session experiment_pointhead
+python train.py {output_network.pt} --session experiment_pointhead
 ```
 
 
 # 4. Validation pointhead results
 1. Use bash to generate all scenes keypoints files in `./results_keypoint/output_keypoints`.
 ```bash
-python test_keypoint.py {output_network.pt}
+python test.py {output_network.pt}
 ```
 2. Use `keypoints_visualize.py` to generate keypoints images of output keypoints in origin datasets rgb files to visualize and verify the keypoints training results.
